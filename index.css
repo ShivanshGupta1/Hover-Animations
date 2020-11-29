@@ -1,0 +1,25 @@
+.box{
+    width:20%;
+    height:200px;
+    background-color:white;
+    border:black 1px solid;
+    margin:80px auto;
+    transition:transform 10s;
+     transition:10s;
+    
+     
+  }
+  .box:hover{
+    transform:translatex(400px) rotate(7200deg) ;
+    animation-name:colourchange;
+    animation-duration:10s;
+     border-radius:200px;
+    border: 20px white solid;
+    box-shadow:5px 5px 5px white
+    
+  }
+  @keyframes colourchange{
+  0%   {background-color:white;}
+      75%  {background-color: rgba(58, 204, 94, 0.363);}
+  }
+  
